@@ -1,25 +1,12 @@
-/******************************************************************************
- *
- * Copyright (C) 2022-2023 Maxim Integrated Products, Inc. (now owned by 
- * Analog Devices, Inc.),
- * Copyright (C) 2023-2024 Analog Devices, Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- ******************************************************************************/
+/**************************************************************************************************
+* Copyright (C) 2019-2021 Maxim Integrated Products, Inc. All Rights Reserved.
+*
+* Maxim Integrated Products, Inc. Default Copyright Notice:
+* https://www.maximintegrated.com/en/aboutus/legal/copyrights.html
+**************************************************************************************************/
 
 /*
- * This header file was automatically generated for the kws20_v3 network from a template.
+ * This header file was automatically @generated for the KWS_20 network from a template.
  * Please do not edit; instead, edit the template and regenerate.
  */
 
@@ -36,24 +23,25 @@ typedef int16_t q15_t;
 
 /*
   SUMMARY OF OPS
-  Hardware: 8,402,528 ops (8,345,344 macc; 54,496 comp; 2,688 add; 0 mul; 0 bitwise)
+  Hardware: 13,861,248 ops (13,801,984 macc; 59,264 comp; 0 add; 0 mul; 0 bitwise)
     Layer 0: 1,651,200 ops (1,638,400 macc; 12,800 comp; 0 add; 0 mul; 0 bitwise)
-    Layer 1: 3,640,896 ops (3,628,800 macc; 12,096 comp; 0 add; 0 mul; 0 bitwise)
-    Layer 2: 1,177,344 ops (1,161,216 macc; 16,128 comp; 0 add; 0 mul; 0 bitwise)
-    Layer 3: 565,104 ops (562,176 macc; 2,928 comp; 0 add; 0 mul; 0 bitwise)
-    Layer 4: 281,280 ops (276,480 macc; 4,800 comp; 0 add; 0 mul; 0 bitwise)
-    Layer 5: 518,784 ops (516,096 macc; 2,688 comp; 0 add; 0 mul; 0 bitwise)
-    Layer 6: 407,288 ops (403,200 macc; 1,400 comp; 2,688 add; 0 mul; 0 bitwise)
-    Layer 7: 155,256 ops (153,600 macc; 1,656 comp; 0 add; 0 mul; 0 bitwise)
-    Layer 8: 5,376 ops (5,376 macc; 0 comp; 0 add; 0 mul; 0 bitwise)
+    Layer 1: 1,292,800 ops (1,280,000 macc; 12,800 comp; 0 add; 0 mul; 0 bitwise)
+    Layer 2: 646,400 ops (640,000 macc; 6,400 comp; 0 add; 0 mul; 0 bitwise)
+    Layer 3: 104,448 ops (102,400 macc; 2,048 comp; 0 add; 0 mul; 0 bitwise)
+    Layer 4: 593,920 ops (589,824 macc; 4,096 comp; 0 add; 0 mul; 0 bitwise)
+    Layer 5: 2,367,488 ops (2,359,296 macc; 8,192 comp; 0 add; 0 mul; 0 bitwise)
+    Layer 6: 4,726,784 ops (4,718,592 macc; 8,192 comp; 0 add; 0 mul; 0 bitwise)
+    Layer 7: 2,215,680 ops (2,211,840 macc; 3,840 comp; 0 add; 0 mul; 0 bitwise)
+    Layer 8: 242,816 ops (241,920 macc; 896 comp; 0 add; 0 mul; 0 bitwise)
+    Layer 9: 19,712 ops (19,712 macc; 0 comp; 0 add; 0 mul; 0 bitwise)
 
   RESOURCE USAGE
-  Weight memory: 169,472 bytes out of 442,368 bytes total (38%)
-  Bias memory:   0 bytes out of 2,048 bytes total (0%)
+  Weight memory: 127,386 bytes out of 442,368 bytes total (28.8%)
+  Bias memory:   0 bytes out of 2,048 bytes total (0.0%)
 */
 
 /* Number of outputs for this network */
-#define CNN_NUM_OUTPUTS 21
+#define CNN_NUM_OUTPUTS 22
 
 /* Use this timer to time the inference */
 #define CNN_INFERENCE_TIMER MXC_TMR0
